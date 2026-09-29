@@ -1,0 +1,65 @@
+{
+  "@@locale": "en",
+
+  "commonCancel": "Cancel",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonSomethingWentWrong": "Something went wrong",
+  "navBackToSwitcher": "Back to Jung Studio",
+
+  "tripsTitle": "My Trips",
+  "tripsEmptyTitle": "No trips yet",
+  "tripsEmptyBody": "Create a trip or join one with a code from a friend.",
+  "tripsCreateButton": "Create Trip",
+  "tripsJoinButton": "Join Trip",
+  "tripsLoadError": "Failed to load trips",
+
+  "createTripTitle": "Create Trip",
+  "createTripNameLabel": "Trip Name",
+  "createTripNameRequired": "Name is required",
+  "createTripDestinationLabel": "Destination (optional)",
+  "createTripStartDateLabel": "Start Date",
+  "createTripEndDateLabel": "End Date",
+  "createTripSubmitButton": "Create Trip",
+
+  "joinTripTitle": "Join Trip",
+  "joinTripCodeLabel": "Trip Code",
+  "joinTripCodeHint": "e.g. PAI482",
+  "joinTripSubmitButton": "Join",
+  "joinTripNotFound": "No trip found with that code",
+
+  "tripDetailDayLabel": "Day {number} · {date}",
+  "@tripDetailDayLabel": {
+    "placeholders": { "number": { "type": "int" }, "date": { "type": "String" } }
+  },
+  "tripDetailEmptyDay": "Nothing planned yet",
+  "tripDetailAddStopButton": "Add Stop",
+  "tripDetailJoinCode": "Join code: {code}",
+  "@tripDetailJoinCode": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "tripMembersTitle": "Members",
+  "tripLeaveButton": "Leave Trip",
+  "tripLeaveConfirmTitle": "Leave this trip?",
+  "tripLeaveConfirmBody": "You'll need the join code to come back in.",
+
+  "stopFormAddTitle": "Add Stop",
+  "stopFormEditTitle": "Edit Stop",
+  "stopFormNameLabel": "What is it?",
+  "stopFormNameRequired": "Name is required",
+  "stopFormDayLabel": "Day",
+  "stopFormTimeLabel": "Time (optional)",
+  "stopFormAddressLabel": "Location",
+  "stopFormAddressHint": "Tap to pick on map",
+  "stopFormNoteLabel": "Note (optional)",
+  "stopFormSaveButton": "Save Stop",
+  "stopFormDeleteButton": "Remove Stop",
+
+  "locationPickerTitle": "Pick Location",
+  "locationSearchHint": "Search for a place",
+  "locationPickerTapToPlace": "Tap the map to place a pin",
+  "locationResolvingAddress": "Finding address…",
+  "locationConfirmButton": "Confirm",
+  "locationPermissionDenied": "Location permission denied",
+  "locationSearchNoResults": "No results found"
+}

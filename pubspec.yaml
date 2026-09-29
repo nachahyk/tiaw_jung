@@ -1,0 +1,43 @@
+name: tiaw_jung
+description: "Tiaw Jung: the trip-planning mini-app. Depends on core, common, and auth; never on another mini-app package."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  core_infra:
+    path: ../core_infra
+  core_jung:
+    path: ../core_jung
+  jung_studio_auth:
+    path: ../jung_studio_auth
+
+  go_router: ^16.2.4
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  supabase_flutter: ^2.8.0
+
+  intl: ^0.20.2
+
+  google_fonts: ^6.3.2
+
+  flutter_map: ^8.3.1
+  latlong2: ^0.10.1
+  geolocator: ^14.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

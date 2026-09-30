@@ -13,11 +13,17 @@ dependencies:
     sdk: flutter
 
   core_infra:
-    path: ../core_infra
+    git:
+      url: https://github.com/nachahyk/core_infra.git
+      ref: main
   core_jung:
-    path: ../core_jung
+    git:
+      url: https://github.com/nachahyk/core_jung.git
+      ref: main
   jung_studio_auth:
-    path: ../jung_studio_auth
+    git:
+      url: https://github.com/nachahyk/jung_studio_auth.git
+      ref: main
 
   go_router: ^16.2.4
   flutter_bloc: ^9.1.1

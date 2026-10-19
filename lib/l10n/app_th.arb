@@ -55,5 +55,20 @@
   "locationResolvingAddress": "กำลังค้นหาที่อยู่…",
   "locationConfirmButton": "ยืนยัน",
   "locationPermissionDenied": "ไม่ได้รับอนุญาตให้เข้าถึงตำแหน่ง",
-  "locationSearchNoResults": "ไม่พบผลลัพธ์"
+  "locationSearchNoResults": "ไม่พบผลลัพธ์",
+
+  "profileTitle": "โปรไฟล์",
+  "profileGuestName": "ผู้เยี่ยมชม",
+  "profileGuestBadge": "บัญชีผู้เยี่ยมชม",
+  "profileEmailLabel": "อีเมล",
+  "profilePhoneLabel": "เบอร์โทรศัพท์",
+  "profileAddressLabel": "ที่อยู่",
+  "profileMemberSinceLabel": "เป็นสมาชิกตั้งแต่",
+  "profileNotSet": "ยังไม่ได้ระบุ",
+  "profileEditButton": "แก้ไขโปรไฟล์",
+  "profileEditTitle": "แก้ไขโปรไฟล์",
+  "profileFullNameLabel": "ชื่อ-นามสกุล",
+  "profileFullNameRequired": "กรุณากรอกชื่อ",
+  "profileSavedMessage": "อัปเดตโปรไฟล์แล้ว",
+  "profileSignOut": "ออกจากระบบ"
 }

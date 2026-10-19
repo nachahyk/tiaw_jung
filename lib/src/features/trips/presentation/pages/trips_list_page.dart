@@ -38,6 +38,13 @@ class _TripsListPageState extends State<TripsListPage> {
           tooltip: l10n.navBackToSwitcher,
           onPressed: () => context.go('/'),
         ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.account_circle_outlined),
+            tooltip: l10n.profileTitle,
+            onPressed: () => context.push(AppRoutes.profile),
+          ),
+        ],
         toolbarHeight: 44,
       ),
       body: SafeArea(

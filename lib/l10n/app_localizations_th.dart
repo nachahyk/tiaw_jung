@@ -159,4 +159,46 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get locationSearchNoResults => 'ไม่พบผลลัพธ์';
+
+  @override
+  String get profileTitle => 'โปรไฟล์';
+
+  @override
+  String get profileGuestName => 'ผู้เยี่ยมชม';
+
+  @override
+  String get profileGuestBadge => 'บัญชีผู้เยี่ยมชม';
+
+  @override
+  String get profileEmailLabel => 'อีเมล';
+
+  @override
+  String get profilePhoneLabel => 'เบอร์โทรศัพท์';
+
+  @override
+  String get profileAddressLabel => 'ที่อยู่';
+
+  @override
+  String get profileMemberSinceLabel => 'เป็นสมาชิกตั้งแต่';
+
+  @override
+  String get profileNotSet => 'ยังไม่ได้ระบุ';
+
+  @override
+  String get profileEditButton => 'แก้ไขโปรไฟล์';
+
+  @override
+  String get profileEditTitle => 'แก้ไขโปรไฟล์';
+
+  @override
+  String get profileFullNameLabel => 'ชื่อ-นามสกุล';
+
+  @override
+  String get profileFullNameRequired => 'กรุณากรอกชื่อ';
+
+  @override
+  String get profileSavedMessage => 'อัปเดตโปรไฟล์แล้ว';
+
+  @override
+  String get profileSignOut => 'ออกจากระบบ';
 }

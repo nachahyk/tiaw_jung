@@ -160,4 +160,46 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get locationSearchNoResults => 'No results found';
+
+  @override
+  String get profileTitle => 'Profile';
+
+  @override
+  String get profileGuestName => 'Guest';
+
+  @override
+  String get profileGuestBadge => 'Guest account';
+
+  @override
+  String get profileEmailLabel => 'Email';
+
+  @override
+  String get profilePhoneLabel => 'Phone';
+
+  @override
+  String get profileAddressLabel => 'Address';
+
+  @override
+  String get profileMemberSinceLabel => 'Member since';
+
+  @override
+  String get profileNotSet => 'Not set';
+
+  @override
+  String get profileEditButton => 'Edit profile';
+
+  @override
+  String get profileEditTitle => 'Edit profile';
+
+  @override
+  String get profileFullNameLabel => 'Full name';
+
+  @override
+  String get profileFullNameRequired => 'Please enter your name';
+
+  @override
+  String get profileSavedMessage => 'Profile updated';
+
+  @override
+  String get profileSignOut => 'Sign out';
 }

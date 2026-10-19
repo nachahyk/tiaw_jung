@@ -9,6 +9,7 @@ import 'core/widgets/tj_theme.dart';
 import 'features/itinerary/domain/repositories/itinerary_repository.dart';
 import 'features/itinerary/presentation/controllers/itinerary_cubit.dart';
 import 'features/itinerary/presentation/pages/stop_form_page.dart';
+import 'features/profile/presentation/pages/tj_profile_page.dart';
 import 'features/trips/domain/repositories/trip_repository.dart';
 import 'features/trips/presentation/controllers/trip_detail_cubit.dart';
 import 'features/trips/presentation/pages/create_trip_page.dart';
@@ -77,6 +78,11 @@ class TiawJungModule implements AppModule {
           path: AppRoutes.joinTrip,
           redirect: _requireSignedIn,
           builder: (context, state) => const TjTheme(child: JoinTripPage()),
+        ),
+        GoRoute(
+          path: AppRoutes.profile,
+          redirect: _requireSignedIn,
+          builder: (context, state) => const TjTheme(child: TjProfilePage()),
         ),
         // Trip detail and its two stop-form routes share one TripDetailCubit
         // + ItineraryCubit instance via ShellRoute — a stop added/edited/

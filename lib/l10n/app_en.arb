@@ -61,5 +61,20 @@
   "locationResolvingAddress": "Finding address…",
   "locationConfirmButton": "Confirm",
   "locationPermissionDenied": "Location permission denied",
-  "locationSearchNoResults": "No results found"
+  "locationSearchNoResults": "No results found",
+
+  "profileTitle": "Profile",
+  "profileGuestName": "Guest",
+  "profileGuestBadge": "Guest account",
+  "profileEmailLabel": "Email",
+  "profilePhoneLabel": "Phone",
+  "profileAddressLabel": "Address",
+  "profileMemberSinceLabel": "Member since",
+  "profileNotSet": "Not set",
+  "profileEditButton": "Edit profile",
+  "profileEditTitle": "Edit profile",
+  "profileFullNameLabel": "Full name",
+  "profileFullNameRequired": "Please enter your name",
+  "profileSavedMessage": "Profile updated",
+  "profileSignOut": "Sign out"
 }

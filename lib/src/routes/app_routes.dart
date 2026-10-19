@@ -7,6 +7,7 @@ class AppRoutes {
   static const String trips = '/tiaw-jung/trips';
   static const String createTrip = '/tiaw-jung/trips/new';
   static const String joinTrip = '/tiaw-jung/trips/join';
+  static const String profile = '/tiaw-jung/profile';
 
   static const String tripDetailPath = '/tiaw-jung/trips/:id';
   static String tripDetail(String id) => '/tiaw-jung/trips/$id';

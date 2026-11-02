@@ -15,6 +15,7 @@ import 'features/trips/presentation/controllers/trip_detail_cubit.dart';
 import 'features/trips/presentation/pages/create_trip_page.dart';
 import 'features/trips/presentation/pages/join_trip_page.dart';
 import 'features/trips/presentation/pages/trip_detail_page.dart';
+import 'features/splash/presentation/pages/splash_page.dart';
 import 'features/trips/presentation/pages/trips_list_page.dart';
 import 'routes/app_routes.dart';
 
@@ -50,7 +51,7 @@ class TiawJungModule implements AppModule {
   IconData get icon => Icons.card_travel;
 
   @override
-  String get entryPath => AppRoutes.trips;
+  String get entryPath => AppRoutes.splash;
 
   String? _requireSignedIn(BuildContext context, GoRouterState state) {
     return authCubit.state is AuthAuthenticated ? null : '/login';
@@ -64,6 +65,11 @@ class TiawJungModule implements AppModule {
         // builds a fresh widget subtree with no access to a BlocProvider
         // placed inside a *different* route's builder, so a cubit shared
         // across trips/createTrip/joinTrip has to live above all of them.
+        GoRoute(
+          path: AppRoutes.splash,
+          redirect: _requireSignedIn,
+          builder: (context, state) => const TjTheme(child: SplashPage()),
+        ),
         GoRoute(
           path: AppRoutes.trips,
           redirect: _requireSignedIn,
